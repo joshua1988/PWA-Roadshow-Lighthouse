@@ -1,4 +1,4 @@
-var cacheName = 'lighthouse-step2-serviceworker-install';
+var cacheName = 'lighthouse-step3-web-app-manifest-install';
 var filesToCache = [
   '/',
   '/index.html',
@@ -7,6 +7,11 @@ var filesToCache = [
   '/images/1.png',
   '/images/2.png',
   '/images/3.png',
+  '/images/icons/icon-128.png',
+  '/images/icons/icon-144.png',
+  '/images/icons/icon-152.png',
+  '/images/icons/icon-192.png',
+  '/images/icons/icon-256.png',
   '/images/ic_add_white_24px.svg',
   '/images/ic_refresh_white_24px.svg'
 ];
