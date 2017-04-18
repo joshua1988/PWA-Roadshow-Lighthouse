@@ -46,21 +46,8 @@ self.addEventListener('fetch', function(e) {
   e.respondWith(
     caches.match(e.request).then(function(response) {
       return response || fetch(e.request);
-      // return response || new Response("Nothing in the cache for this request");
     }).catch(function(err) {
       console.log("fetch error occured : ", err);
     })
   );
-
-  // e.respondWith(
-  //   caches.match(e.request)
-  //     .then(function(response) {
-  //       // Cache hit - return response
-  //       if (response) {
-  //         return response;
-  //       }
-  //       return fetch(e.request);
-  //     }
-  //   )
-  // );
 });
