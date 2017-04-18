@@ -5,10 +5,13 @@
 - simple html page with js, css, images3
 
 ## Step 1
-- Add service worker
+- Build up the simple web page
 
 ## Step 2
-- Add web app manifest
+- Add service worker
 
 ## Step 3
+- Add web app manifest
+
+## Extra Steps
 - Add compressed images or etc
